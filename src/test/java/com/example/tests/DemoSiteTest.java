@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class DemoSiteTest extends UiBaseTest {
 
-  @Test(description = "Launch application Rafi")
+  @Test(description = "Launch application Rafi Shaik")
   @Parameters(value = "tcId")
   public void launchApp(String tcId) {
     DemoSiteModule demoSiteModule = new DemoSiteModule();
